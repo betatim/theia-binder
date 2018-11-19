@@ -1,5 +1,8 @@
 #!/bin/bash
 
+pip install https://github.com/jupyterhub/nbserverproxy/archive/master.zip
+jupyter serverextension enable --py nbserverproxy
+
 npm install yarn
 
 cd theia
