@@ -1,0 +1,5 @@
+yarn && \
+    yarn theia build && \
+    rm -rf ./node_modules/electron && \
+    yarn cache clean
+    
