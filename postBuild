@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npm install --global yarn
+
 cd theia
 yarn && \
     yarn theia build && \
